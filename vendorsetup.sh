@@ -1,0 +1,1 @@
+add_lunch_combo havoc_z2_plus-userdebug
