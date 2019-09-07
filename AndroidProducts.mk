@@ -14,3 +14,7 @@
 # limitations under the License.
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/potato_z2_plus.mk
+
+COMMON_LUNCH_CHOICES := \
+    potato_z2_plus-userdebug \
+    potato_z2_plus-eng
