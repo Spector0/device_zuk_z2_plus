@@ -23,6 +23,10 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 # Inherit some common Aosip stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+#Gapps
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
